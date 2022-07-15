@@ -1,0 +1,4905 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xdt="http://www.w3.org/2005/xpath-datatypes" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <Styles>
+    <Style ss:ID="header" ss:Name="Header">
+      <Font ss:FontName="Arial" ss:Bold="1" />
+    </Style>
+    <Style ss:ID="text" ss:Name="Normal">
+      <Font ss:FontName="Arial" />
+    </Style>
+    <Style ss:ID="value" ss:Parent="text" ss:Name="Value">
+      <Font ss:Bold="1" />
+    </Style>
+    <Style ss:ID="hyperlink" ss:Parent="text" ss:Name="Hyperlink">
+      <Font ss:Underline="Single" ss:Color="#0000FF" />
+    </Style>
+    <Style ss:ID="inherited-value" ss:Parent="text" ss:Name="Inherited Value">
+      <Font ss:Italic="1" />
+    </Style>
+    <Style ss:ID="default-value" ss:Parent="text" ss:Name="Default Value">
+      <Font ss:Italic="1" ss:Color="Silver" />
+    </Style>
+    <Style ss:ID="no-value" ss:Parent="text" ss:Name="No Value">
+      <Interior ss:Pattern="Solid" ss:Color="Silver" />
+    </Style>
+    <Style ss:ID="merge-down" ss:Parent="text" ss:Name="Merged Down">
+      <Alignment ss:Horizontal="Left" ss:Vertical="Center" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Tables">
+    <Table>
+      <Row>
+        <Cell ss:StyleID="header">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="header">
+          <Data ss:Type="String">Schema</Data>
+        </Cell>
+        <Cell ss:StyleID="header">
+          <Data ss:Type="String">Table</Data>
+        </Cell>
+        <Cell ss:StyleID="header">
+          <Data ss:Type="String">Columns</Data>
+        </Cell>
+        <Cell ss:StyleID="header">
+          <Data ss:Type="String">Rows</Data>
+        </Cell>
+        <Cell ss:StyleID="header">
+          <Data ss:Type="String">Description</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Audit.LoginsLogs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Audit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">LoginsLogs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">5</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">1600</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Журнал регистрации входов в систему</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">dbo.__EFMigrationsHistory</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">dbo</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">__EFMigrationsHistory</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">55</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Departments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Departments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">12</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">5</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Employees</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Employees</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">10</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">21</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Сотрудники</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">19</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">19</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Enterprises</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Enterprises</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">12</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Корни оргструктуры на основе таблицы SAP.TORO</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Segments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Segments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">12</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DangersCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DangersCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">8</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">5</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Категории опасности</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DistributionDaysTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DistributionDaysTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Тип дней для отслеживания</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DistributionPeriodicities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DistributionPeriodicities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Периодичность рассылки сообщений</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DistributionTrackingTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DistributionTrackingTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Вид отслеживания</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ExecutionStatuses</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExecutionStatuses</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">3</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Статусы выполнения мероприятий</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.HPFRegistrationNumbers</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">HPFRegistrationNumbers</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">9</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Регистрационные № ОПО</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.MeasuresUnits</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MeasuresUnits</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">9</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Единицы измерения</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ObjectsCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">8</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Типы объектов</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ObjectsTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">8</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Виды объектов для ЭПБ</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.RequirementsCompliances</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RequirementsCompliances</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">9</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">5</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Соответствие требованиям ПБ</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.AnnualBudgets</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">AnnualBudgets</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">11</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">10</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Распеределение бюджета мероприятий по годам</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">17</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">7</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Графики рассылки оповещений</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">15</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">3</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Группы рассылки</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">20</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">15</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Экспертиза ПБ</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">27</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">28</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Мероприятия по результатам ЭПБ</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesCWPRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExaminationsActivitiesCWPRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">9</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Документы по ремонтам в ЦВП</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExaminationsActivitiesDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">12</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">6</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Документы мероприятия экспертизы</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">14</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">2</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Документы по ремонтам в Дирекции по ремонтам</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesRPRCRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExaminationsActivitiesRPRCRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">13</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">3</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Документы по ремонтам в РПКЦ</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExaminationsDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">12</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">8</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Документы экспертиз</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ObjectCards</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ObjectCards</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">4</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">10</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Объекты для проведения ЭПБ</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">22</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">10</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Объекты для проведения ЭПБ</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.UserSettings</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">UserSettings</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">7</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Настройки пользователя</Data>
+        </Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+  <Worksheet ss:Name="Columns">
+    <Table>
+      <Row>
+        <Cell ss:StyleID="header">
+          <Data ss:Type="String">Table</Data>
+        </Cell>
+        <Cell ss:StyleID="header">
+          <Data ss:Type="String">Column</Data>
+        </Cell>
+        <Cell ss:StyleID="header">
+          <Data ss:Type="String">DataType</Data>
+        </Cell>
+        <Cell ss:StyleID="header">
+          <Data ss:Type="String">Description</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Audit.LoginsLogs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Audit.LoginsLogs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">EmployeeId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Audit.LoginsLogs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">FactDomainLogin</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(100)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Audit.LoginsLogs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Audit.LoginsLogs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">dbo.__EFMigrationsHistory</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MigrationId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">nvarchar(300)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">dbo.__EFMigrationsHistory</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ProductVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">nvarchar(64)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Departments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Departments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">SegmentId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Departments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Code</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Departments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Departments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Departments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Departments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Departments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Departments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Deleted</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Departments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DeletedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Departments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Departments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsActive</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Employees</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Employees</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalEmploeeId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bigint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Ид из MasterData.Employees</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Employees</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Surname</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Фамилия</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Employees</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(20)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Имя</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Employees</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MiddleName</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(20)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Отчество</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Employees</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Email</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(100)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Employees</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DomainLogin</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(100)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Домен\логин</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Employees</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">FIO</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(55)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Employees</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">FullName</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(92)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Employees</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">EmployeeId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalEmployeeId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bigint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Ид из MasterData.Employees</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalPersonnelCode</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(20)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalEmployeeWorkPlaceId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bigint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalJobTitleId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bigint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalJobTitleName</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(-1)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalWorkplaceCode</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(21)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Код профессии</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalWorkPlaceName</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(-1)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Наименование должности/профессии ЕТКС</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalOrganizationUnitId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bigint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalOrganizationUnitName</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(-1)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalParentOrganizationUnitName</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(-1)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalAuditedOrganizationUnitName</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(-1)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalIsOutside</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalOrganizationUnitFullName</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(-1)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalEnterpriseId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bigint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.EmployeeWorkPlaces</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Enterprises</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Enterprises</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Code</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Enterprises</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Enterprises</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalEnterpriseId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bigint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Enterprises</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Enterprises</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Enterprises</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Enterprises</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Enterprises</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Deleted</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Enterprises</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DeletedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Enterprises</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Enterprises</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsActive</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Segments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Segments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">EnterpriseId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Segments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Code</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Segments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Segments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Segments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Segments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Segments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Segments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Deleted</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Segments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DeletedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Segments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExternalMasterData.Segments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsActive</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DangersCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DangersCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Наименование</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DangersCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsActive</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DangersCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DangersCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DangersCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DangersCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DangersCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DistributionDaysTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">tinyint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Код</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DistributionDaysTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(250)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Наименование</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DistributionPeriodicities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">tinyint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Код</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DistributionPeriodicities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(250)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Наименование</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DistributionTrackingTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">tinyint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Код</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.DistributionTrackingTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(250)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Наименование</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ExecutionStatuses</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">tinyint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Ид</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ExecutionStatuses</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Наименование</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ExecutionStatuses</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CSSClass</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.HPFRegistrationNumbers</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.HPFRegistrationNumbers</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(255)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Наименование ОПО</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.HPFRegistrationNumbers</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsActive</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.HPFRegistrationNumbers</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.HPFRegistrationNumbers</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.HPFRegistrationNumbers</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.HPFRegistrationNumbers</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.HPFRegistrationNumbers</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.HPFRegistrationNumbers</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Number</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Регистрационный № ОПО</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.MeasuresUnits</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.MeasuresUnits</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Наименование</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.MeasuresUnits</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Code</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Обозначение</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.MeasuresUnits</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsActive</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.MeasuresUnits</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.MeasuresUnits</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.MeasuresUnits</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.MeasuresUnits</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.MeasuresUnits</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Наименование</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsActive</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsCategories</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Наименование</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.ObjectsTypes</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsActive</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.RequirementsCompliances</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.RequirementsCompliances</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Наименование</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.RequirementsCompliances</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsActive</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.RequirementsCompliances</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.RequirementsCompliances</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.RequirementsCompliances</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.RequirementsCompliances</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.RequirementsCompliances</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MasterData.RequirementsCompliances</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Grade</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">tinyint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Оценка</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.AnnualBudgets</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.AnnualBudgets</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExaminationsActivityId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.AnnualBudgets</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Year</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">int</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Год</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.AnnualBudgets</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Budget4CIW</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">decimal(8,2)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Бюджет на выполнение СМР, тыс. руб</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.AnnualBudgets</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Budget4Inventory</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">decimal(8,2)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Бюджет на выполнение СМР, тыс. руб</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.AnnualBudgets</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.AnnualBudgets</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.AnnualBudgets</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.AnnualBudgets</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.AnnualBudgets</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.AnnualBudgets</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">TotalBudget</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">decimal(9,2)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Бюджет всего, тыс. руб</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">EnterpriseId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Ид предприятия</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DistributionTrackingTypeId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">tinyint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Ид вида отслеживания</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DistributionDaysTypeId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">tinyint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Ид типа дней</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DistributionPeriodicityId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">tinyint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Ид вида периодичности</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DaysNumber</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">int</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Кол-во дней</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(250)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Наименование</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">StartDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Дата начала оповещения</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Remainder</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(250)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Строка "Напоминание" в оповещении</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Deleted</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DeletedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedules</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsActive</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Код</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DistributionSheduleId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Ид графика рассылки</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">AuditedEnterpiseId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">AuditedSegmentId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">AuditedDepartmentId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">AuditedOrganizationUnitName</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(250)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">EmployeesWorkPlaceId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Deleted</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DeletedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.DistributionShedulesRecipients</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsActive</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ObjectsCardId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Ссылка на объект торо</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">PlanDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Плановая дата</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">FactDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Дата регистрации ЭПБ</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ConclusionsNumber</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Номер заключения</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">NextPlanDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Следующая плановая дата</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Deleted</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DeletedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsActive</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsInOperatingState</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Признак"Работоспособное состояние"</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsOffline</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Признак"Недействующая"</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsOfflineSource</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(20)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Источник признака"Недействующая"</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">InterimDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Дата регистрации ЭПБ</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Наименование ЭПБ</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.Examinations</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RequirementsComplianceId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExaminationId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">SeqNumber</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(10)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">№ п/п</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Description</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(500)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Мероприятие по устранению</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExecutorId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Ответственный</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">PlanDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">FactDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExecutionStatusId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">tinyint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Ид статуса выполнения</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsIncludedInBudget</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Признак включения мероприятия в бюджет</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CheckingStatus</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Статус по фактической проверке</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Deleted</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DeletedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DangersCategoryId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Ид категория опасности</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">MeasuresUnitId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Ид единица измерения</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsActive</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DamagesDescription</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(500)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Описание повреждения</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DamagesVolume</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Объем повреждения</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsDefectListsDevelopmentRequired</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">"Разработка ВД" (для отметки необходимости выполнять ведомость дефектов по мероприятию) </Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsSpecificationsDevelopmentRequired</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">"Разработка ТЗ" (для отметки необходимости выполнять техническое задание по мероприятию)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RequiredBudget4CIW</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">decimal(8,2)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Необходимый бюджет СМР, тыс.руб.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RequiredBudget4Inventory</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">decimal(8,2)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Необходимый бюджет ТМЦ, тыс.руб.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivities</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">TotalRequiredBudget</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">decimal(9,2)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Необходимый бюджет всего, тыс.руб.</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesCWPRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesCWPRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">TenderRequestDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Дата заявки на тендер</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesCWPRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">TenderRequestNumber</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Номер заявки на тендер</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesCWPRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExaminationsActivityId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesCWPRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesCWPRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesCWPRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesCWPRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesCWPRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExaminationsActivityId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">FileBody</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varbinary</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Файл документа</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">SeqNumber</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(10)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">№ п/п</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">FileName</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(255)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Название файла</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Description</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(255)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Отображается в таблицах в качестве ссылки</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ContentType</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(255)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DefectListPlannedDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Плановая дата ВД</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DefectListActualDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Фактическая дата ВД</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">EstimateSheetPlannedDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Плановая дата сметы</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">EstimateSheetActualDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Фактическая дата сметы</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">EstimateSheetNumber</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Номер сметы</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ContractDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Дата договора</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ContractNumber</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Номер договора</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExaminationsActivityId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesDRRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesRPRCRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesRPRCRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">SpecificationsDevelopmentPlannedDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Плановая дата ТЗ</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesRPRCRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">SpecificationsDevelopmentActualDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Фактическая дата ТЗ</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesRPRCRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsEstimateSheetRequired</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Признак необходимости разработки сметы</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesRPRCRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ProjectPlannedDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Фактическая дата проекта</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesRPRCRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ProjectActualDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetime2</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesRPRCRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ProjectNumber</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Номер проекта</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesRPRCRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExaminationsActivityId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesRPRCRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesRPRCRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesRPRCRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesRPRCRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsActivitiesRPRCRepairs</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ExaminationId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">FileBody</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varbinary</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Файл документа</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">SeqNumber</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(10)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">№ п/п</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">FileName</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(255)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Название файла</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Description</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(255)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Отображается в таблицах в качестве ссылки</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ExaminationsDocuments</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ContentType</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(255)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ObjectCards</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ObjectCards</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ObjectCards</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.ObjectCards</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DepartmentId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Code</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Name</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Наименование объекта. Из Sap.TOPO.ObjectName</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ObjectTypeId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">TechnologyNumber</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RegistrationNumber</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">InventoryNumber</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">varchar(50)</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">BeginDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">EndDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">date</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Дата ввода в эксплуатацию. Из SAP</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">PrimaryId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bigint</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Modified</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ModifiedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Deleted</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">DeletedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsActive</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">HPFRegistrationNumberId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">InServiceDate</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetime2</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.SapToroExtension</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">ObjectsCategoryId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.UserSettings</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Id</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.UserSettings</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">EmployeesId</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.UserSettings</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsOpenPageInExternalWindow</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Признак открытия страницы в отдельном окне браузера</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.UserSettings</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Created</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">datetimeoffset</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.UserSettings</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">CreatedBy</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">uniqueidentifier</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Идентификатор пользователя из БД HSE-Inspection (MasterData.Employees.Id)</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.UserSettings</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">RowVersion</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">timestamp</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Oper.UserSettings</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">IsSidebarExpanded</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">bit</Data>
+        </Cell>
+        <Cell ss:StyleID="text">
+          <Data ss:Type="String">Признак начального состояния бокового меню</Data>
+        </Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+</Workbook>
