@@ -9,8 +9,8 @@
 	<xsl:output method="xml" indent="yes"/>
 	
 	<xsl:variable name="path-nxslt"      >..\..\..\lib\nxslt\nxslt.exe </xsl:variable>
-<!--	<xsl:variable name="path-graphviz"   >..\..\..\lib\GraphViz-2.30.1\bin\</xsl:variable>  -->
-	<xsl:variable name="path-graphviz"   >D:\GitHub\JoePlant\graphviz-2.38\bin\</xsl:variable>
+	<xsl:variable name="path-graphviz"   >..\..\..\lib\GraphViz-5.0.0\bin\</xsl:variable>
+<!--	<xsl:variable name="path-graphviz"   >D:\GitHub\JoePlant\graphviz-2.38\bin\</xsl:variable> -->
 	<xsl:variable name="graphviz-png"> -Tpng </xsl:variable>
 	<xsl:variable name="graphviz-svg"> -Tsvg </xsl:variable>
 	<xsl:variable name="path-dotml"      >..\..\..\lib\dotml-1.4\dotml2dot.xsl </xsl:variable>
