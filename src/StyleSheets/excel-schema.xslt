@@ -31,12 +31,13 @@
       <Worksheet ss:Name="Tables">
         <Table>
 		
-          <xsl:call-template name='header-row-5-columns'>
+          <xsl:call-template name='header-row-6-columns'>
             <xsl:with-param name='column-1'>Name</xsl:with-param>
             <xsl:with-param name='column-2'>Schema</xsl:with-param>
             <xsl:with-param name='column-3'>Table</xsl:with-param>
             <xsl:with-param name='column-4'>Columns</xsl:with-param>
             <xsl:with-param name='column-5'>Rows</xsl:with-param>
+            <xsl:with-param name='column-6'>Description</xsl:with-param>
           </xsl:call-template>
 
           <xsl:for-each select="Tables/Table">
@@ -48,6 +49,7 @@
 			<xsl:variable name='table' select='@name'/>
 			<xsl:variable name='columns' select='count(Column)'/>
 			<xsl:variable name='rows' select='Rows/@count'/>
+			<xsl:variable name='description' select='@description'/>
 			
 			<Row>
 				<xsl:call-template name="text-cell">
@@ -65,6 +67,9 @@
 				<xsl:call-template name="number-cell">
 					<xsl:with-param name="value" select="$rows" ></xsl:with-param>
 				</xsl:call-template>
+				<xsl:call-template name="text-cell">
+					<xsl:with-param name="text" select="$description" ></xsl:with-param>
+				</xsl:call-template>
 			</Row>
 		  </xsl:for-each>
         </Table>
@@ -73,10 +78,11 @@
 	  
 	  <Worksheet ss:Name="Columns">
         <Table>
-			<xsl:call-template name='header-row-3-columns'>
+			<xsl:call-template name='header-row-4-columns'>
 				<xsl:with-param name='column-1'>Table</xsl:with-param>
 				<xsl:with-param name='column-2'>Column</xsl:with-param>
 				<xsl:with-param name='column-3'>DataType</xsl:with-param>
+				<xsl:with-param name='column-4'>Description</xsl:with-param>
 			</xsl:call-template>
 			
 			<xsl:for-each select="Tables/Table">
@@ -92,6 +98,7 @@
 					<xsl:variable name='datatype'>
 						<xsl:apply-templates select="." mode='data-type'/>
 					</xsl:variable>
+					<xsl:variable name='description' select='@description'/>
 					
 					<Row>
 						<xsl:call-template name="text-cell">
@@ -102,6 +109,9 @@
 						</xsl:call-template>
 						<xsl:call-template name="text-cell">
 							<xsl:with-param name="text" select="$datatype" ></xsl:with-param>
+						</xsl:call-template>
+						<xsl:call-template name="text-cell">
+							<xsl:with-param name="text" select="$description" ></xsl:with-param>
 						</xsl:call-template>
 					</Row>
 				</xsl:for-each>

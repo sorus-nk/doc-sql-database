@@ -237,6 +237,26 @@
 		</xsl:call-template>
 	</xsl:template>	
 
+  <xsl:template name='data-row-6-columns'>
+		<xsl:param name='column-1'/>
+		<xsl:param name='column-2'/>
+		<xsl:param name='column-3'/>
+		<xsl:param name='column-4'/>
+		<xsl:param name='column-5'/>
+		<xsl:param name='column-6'/>
+		
+		<xsl:call-template name='excel-row-X-columns'>
+			<xsl:with-param name='columns'>6</xsl:with-param>
+			<xsl:with-param name='column-1' select='$column-1'/>
+			<xsl:with-param name='column-2' select='$column-2'/>
+			<xsl:with-param name='column-3' select='$column-3'/>
+			<xsl:with-param name='column-4' select='$column-4'/>
+			<xsl:with-param name='column-5' select='$column-5'/>
+			<xsl:with-param name='column-6' select='$column-6'/>
+			<xsl:with-param name='style'>text</xsl:with-param>
+		</xsl:call-template>
+	</xsl:template>	
+
 	<xsl:template name='header-row-5-columns'>
 		<xsl:param name='column-1'/>
 		<xsl:param name='column-2'/>
@@ -251,6 +271,26 @@
 			<xsl:with-param name='column-3' select='$column-3'/>
 			<xsl:with-param name='column-4' select='$column-4'/>
 			<xsl:with-param name='column-5' select='$column-5'/>
+			<xsl:with-param name='style'>header</xsl:with-param>
+		</xsl:call-template>
+	</xsl:template>	
+
+	<xsl:template name='header-row-6-columns'>
+		<xsl:param name='column-1'/>
+		<xsl:param name='column-2'/>
+		<xsl:param name='column-3'/>
+		<xsl:param name='column-4'/>
+		<xsl:param name='column-5'/>
+		<xsl:param name='column-6'/>
+		
+		<xsl:call-template name='excel-row-X-columns'>
+			<xsl:with-param name='columns'>6</xsl:with-param>
+			<xsl:with-param name='column-1' select='$column-1'/>
+			<xsl:with-param name='column-2' select='$column-2'/>
+			<xsl:with-param name='column-3' select='$column-3'/>
+			<xsl:with-param name='column-4' select='$column-4'/>
+			<xsl:with-param name='column-5' select='$column-5'/>
+			<xsl:with-param name='column-6' select='$column-6'/>
 			<xsl:with-param name='style'>header</xsl:with-param>
 		</xsl:call-template>
 	</xsl:template>	
@@ -297,12 +337,13 @@
   </xsl:template>
 
   <xsl:template name='excel-row-X-columns'>
-		<xsl:param name="columns">5</xsl:param>
+		<xsl:param name="columns">6</xsl:param>
 		<xsl:param name='column-1'/>
 		<xsl:param name='column-2'/>
 		<xsl:param name='column-3'/>
 		<xsl:param name='column-4'/>
 		<xsl:param name='column-5'/>
+		<xsl:param name='column-6'/>
 		<xsl:param name='style'>text</xsl:param>
 		
 		<Row>
@@ -331,6 +372,12 @@
 			<xsl:if test='$columns >= 5'>
 				<xsl:call-template name='style-cell'>
 					<xsl:with-param name='text' select='$column-5'/>
+					<xsl:with-param name='style' select='$style' />
+				</xsl:call-template>
+			</xsl:if>
+			<xsl:if test='$columns >= 6'>
+				<xsl:call-template name='style-cell'>
+					<xsl:with-param name='text' select='$column-6'/>
 					<xsl:with-param name='style' select='$style' />
 				</xsl:call-template>
 			</xsl:if>
